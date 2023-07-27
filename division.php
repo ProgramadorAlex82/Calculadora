@@ -18,13 +18,14 @@ if(isset($_POST["btncalcular"])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-<form action="index.php" method="post">
-<table width="300" border="3">
+<body style="background-color:#D8DACD ;">
+<nav><a href="index.php">Regresar al Inicio</a></nav>
+<form action="division.php" method="post">
+<center><table width="500" border="3"></center>
 
-<tr>
-    <td>Calculo de dos Numeros </td>
-</tr>
+<center><tr>
+   <td style="text-align:center;">Calculo de dos Numeros </td>
+</tr></center>
 
 <tr>
     <td>Numero 1</td>
@@ -37,7 +38,7 @@ if(isset($_POST["btncalcular"])){
 </tr>
 
 <tr>
-    <td>Suma</td>
+    <td>Resultado de la Division</td>
 <td><input name="txts" type="text" id="txts" value="<?=$s?>"></td>
 </tr>
 
